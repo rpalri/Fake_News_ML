@@ -36,3 +36,12 @@ Tf-Idf is then computed by taking a product of Tf and Idf. More important words 
 ### [Passive Aggressive Classifier](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
 The passive-aggressive algorithms are a family of algorithms for large-scale learning.
 Intuitively, passive signifies that if the classification is correct, we should keep the model, and, aggressive signifies that if the classification is incorrect, update the model to adjust to more misclassified examples. Unlike most others, it does not converge, rather it makes updates to correct the loss.
+
+## Results
+
+The model outputs accurracy of ~97% which is decent enough. We have less than 1.5% false positive and false negative classification each. Check the confusion matrix and classification report below:
+
+![](results.png)
+
+## Future Work
+I intend to expend this project by adding a graphical user interface (GUI) where one can paste any piece of text and get its classification in the results.
